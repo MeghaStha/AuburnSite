@@ -25,8 +25,8 @@ contrast_type: default
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: United States
+  adjective: United States
 create_goals:
   layout: goal-by-target-vertical
   previous_next_links: false
@@ -106,7 +106,7 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: Auburn, AL Sustainable Development Goals Indicators
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
