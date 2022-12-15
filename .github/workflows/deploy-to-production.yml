@@ -29,11 +29,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Ruby 3.0
+    - name: Set up Ruby 2.6.x
       uses: actions/setup-ruby@v1
       with:
 
-        ruby-version: '3.0'
+        ruby-version: '2.6.x'
         bundler-cache: true
 
     - name: Build the site
