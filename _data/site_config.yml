@@ -203,10 +203,10 @@ menu:
     dropdown: []
   - path: my-example-page/
     translation_key: My menu item
-    - uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.6.x' # Not needed with a .ruby-version file
-        bundler-cache: true
+  - uses: ruby/setup-ruby@v1
+    with:
+      bundler-cache: true
+      cache-version: 1
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
