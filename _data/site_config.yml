@@ -203,10 +203,7 @@ menu:
     dropdown: []
   - path: my-example-page/
     translation_key: My menu item
-    uses: ruby/setup-ruby@v1
-    with:
-      bundler-cache: true
-      cache-version: 1
+
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
@@ -231,3 +228,7 @@ site_config_form:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+uses: ruby/setup-ruby@v1
+ with:
+   bundler-cache: true
+      cache-version: 1
