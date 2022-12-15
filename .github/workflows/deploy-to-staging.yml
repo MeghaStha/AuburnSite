@@ -19,7 +19,7 @@ jobs:
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '2.6.x'
         bundler-cache: true
     - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v3.x
