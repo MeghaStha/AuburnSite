@@ -203,6 +203,8 @@ menu:
     dropdown: []
   - path: my-example-page/
     translation_key: My menu item
+    with:
+          ruby-version: '2.6.x'
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
