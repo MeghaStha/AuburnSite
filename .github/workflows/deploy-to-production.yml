@@ -32,7 +32,7 @@ jobs:
     - name: Set up Ruby2.6
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6.x'
+        ruby-version: '2.6.0'
         bundler-cache: true
 
     - name: Build the site
