@@ -228,7 +228,9 @@ site_config_form:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
-uses: ruby/setup-ruby@v1
- with:
-   bundler-cache: true
-      cache-version: 1
+  steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
