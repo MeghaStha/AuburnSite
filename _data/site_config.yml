@@ -201,6 +201,9 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
+  - path: my-example-page/
+    translation_key: My menu item
+
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
@@ -225,3 +228,9 @@ site_config_form:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+  steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+  with:
+    ruby-version: 2.6.x
