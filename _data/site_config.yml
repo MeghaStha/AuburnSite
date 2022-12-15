@@ -204,7 +204,7 @@ menu:
   - path: my-example-page/
     translation_key: My menu item
     with:
-          ruby-version: 2.6.x
+          ruby-version: '2.6'
 metadata_edit_url: metadata
 metadata_tabs: []
 news:
