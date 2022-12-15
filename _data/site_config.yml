@@ -203,10 +203,9 @@ menu:
     dropdown: []
   - path: my-example-page/
     translation_key: My menu item
-    - uses: actions/checkout@v3
-    - uses: ruby/setup-ruby@v1
+    - uses: actions/setup-ruby@v1
       with:
-        ruby-version: '3.0' # Not needed with a .ruby-version file
+        ruby-version: '2.6.x' # Not needed with a .ruby-version file
         bundler-cache: true
 metadata_edit_url: metadata
 metadata_tabs: []
