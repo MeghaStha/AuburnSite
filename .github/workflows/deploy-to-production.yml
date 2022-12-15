@@ -32,7 +32,6 @@ jobs:
     - name: Set up Ruby 3.0
       uses: actions/setup-ruby@v1
       with:
-
         ruby-version: '3.0'
         bundler-cache: true
 
@@ -42,8 +41,7 @@ jobs:
         bundle config path vendor/bundle
         bundle install
         JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml
-
-         bundle exec rake
+        bundle exec rake
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
