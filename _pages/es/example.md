@@ -1,7 +1,7 @@
 ---
-title: This is my example title
-language: en
-permalink: my-example-page/
+title: Este es mi título de ejemplo
+language: es
+permalink: es/my-example-page/
 layout: page
 ---
-This is my page content.
+Este es el contenido de mi página.
