@@ -1,4 +1,3 @@
-
 name: Deploy to staging
 
 on:
@@ -20,7 +19,7 @@ jobs:
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.10
+        ruby-version: '2.6'
     - name: Inject slug/short variables
       uses: rlespinasse/github-slug-action@v3.x
     - name: Set the REPOSITORY_URL_SITE environment variable
