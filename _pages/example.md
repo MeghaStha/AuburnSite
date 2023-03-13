@@ -1,7 +1,6 @@
 ---
 title: This is my example title
 language: en
-permalink: my-example-page/
+permalink: urbanprismau.com
 layout: page
 ---
-This is my page content.
