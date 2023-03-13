@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/AuburnSite/assets/css/style.css?v=20230313195514">
+        <link rel="stylesheet" href="/AuburnSite/assets/css/style.css?v=20230313201015">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -193,7 +193,7 @@ layout-page
     <a class="nav-link" href="/AuburnSite/faq">FAQ</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/AuburnSite/news">Updates</a>
-</li><li class="nav-item active">
+</li><li class="nav-item ">
     <a class="nav-link" href="/AuburnSite/my-example-page/">ArcGIS Online Maps</a>
 </li></ul>
     
@@ -226,7 +226,7 @@ layout-page
       English
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/AuburnSite/es/my-example-page/">
+            <a class="dropdown-item" href="/AuburnSite/es/urbanprismau.com">
               Español
             </a>
           </li></ul>
@@ -238,7 +238,7 @@ layout-page
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/AuburnSite/es/my-example-page/">
+            <a class="language-toggle-link" href="/AuburnSite/es/urbanprismau.com">
                 Español
             </a>
         </li></ul>
@@ -272,7 +272,7 @@ data-event-label="high"
         
 
 
-    <p>This is my page content.</p>
+    
 
 
 
@@ -342,12 +342,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/AuburnSite/assets/js/sdg.js?v=20230313195514'></script>
+<script src='/AuburnSite/assets/js/sdg.js?v=20230313201015'></script>
 
 
     
     
-    <script src="/AuburnSite/assets/js/custom.js?v=20230313195514"></script><script>
+    <script src="/AuburnSite/assets/js/custom.js?v=20230313201015"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
