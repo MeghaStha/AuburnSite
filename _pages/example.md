@@ -1,6 +1,7 @@
 ---
 title: This is my example title
 language: en
-permalink: urbanprismau.com
+permalink: my-example-page/
 layout: page
 ---
+Click on this link(urbanprismau.com)
