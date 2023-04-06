@@ -7,7 +7,7 @@ layout: page
 ## Geospatial layers for Auburn, Al 
 The following link contains exploratory layers created using the [enrich layer](https://pro.arcgis.com/en/pro-app/latest/help/analysis/business-analyst/enrich-layer.htm) geoprocessing tool in ArcGIS Pro. The Statistical data are extracted to block level scale within Auburn, Al boundary.
 
-1. Click on this [link]([https://urbanprismau.com/](https://auburnuniversity.maps.arcgis.com/apps/Compare/index.html?appid=797eeaafb5cf497696c8891b679ac37d)) to explore 2021 employed population vs population density.
+1. Click on this [link](https://auburnuniversity.maps.arcgis.com/apps/Compare/index.html?appid=797eeaafb5cf497696c8891b679ac37d) to explore 2021 employed population vs population density.
 
 2. Click on this [link](https://auburnuniversity.maps.arcgis.com/apps/webappviewer/index.html?id=d31cf2cfb1314370a46174649ea7a08c) to explore the layer about employment data by gender.
 
